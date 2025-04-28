@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/el-buen-sabor/static/css/main.d8ce8a7d.css",
+    "main.js": "/el-buen-sabor/static/js/main.5725787b.js",
+    "static/js/453.5bd547e1.chunk.js": "/el-buen-sabor/static/js/453.5bd547e1.chunk.js",
+    "static/media/ceviche.jpg": "/el-buen-sabor/static/media/ceviche.2af5b3c49f283505059d.jpg",
+    "static/media/lomosaltado.jpeg": "/el-buen-sabor/static/media/lomosaltado.db355d91fb605525729f.jpeg",
+    "index.html": "/el-buen-sabor/index.html",
+    "main.d8ce8a7d.css.map": "/el-buen-sabor/static/css/main.d8ce8a7d.css.map",
+    "main.5725787b.js.map": "/el-buen-sabor/static/js/main.5725787b.js.map",
+    "453.5bd547e1.chunk.js.map": "/el-buen-sabor/static/js/453.5bd547e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ce8a7d.css",
+    "static/js/main.5725787b.js"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/el-buen-sabor/static/css/main.d8ce8a7d.css",
+    "main.js": "/el-buen-sabor/static/js/main.60f0f8f3.js",
+    "static/js/453.5bd547e1.chunk.js": "/el-buen-sabor/static/js/453.5bd547e1.chunk.js",
+    "static/media/Almuerzo.png": "/el-buen-sabor/static/media/Almuerzo.4d7215fb27f7fb57110a.png",
+    "static/media/ceviche.jpg": "/el-buen-sabor/static/media/ceviche.2af5b3c49f283505059d.jpg",
+    "static/media/Crowneplaza.jpg": "/el-buen-sabor/static/media/Crowneplaza.d978a63aeee8dc790f7e.jpg",
+    "static/media/lomosaltado.jpeg": "/el-buen-sabor/static/media/lomosaltado.db355d91fb605525729f.jpeg",
+    "static/media/Ajidegallina.jpg": "/el-buen-sabor/static/media/Ajidegallina.205594b4353c65b5ae3f.jpg",
+    "static/media/musica.jpg": "/el-buen-sabor/static/media/musica.3679217e24e5c01c0302.jpg",
+    "static/media/receta.jpg": "/el-buen-sabor/static/media/receta.576bee079aa024c5fd24.jpg",
+    "index.html": "/el-buen-sabor/index.html",
+    "main.d8ce8a7d.css.map": "/el-buen-sabor/static/css/main.d8ce8a7d.css.map",
+    "main.60f0f8f3.js.map": "/el-buen-sabor/static/js/main.60f0f8f3.js.map",
+    "453.5bd547e1.chunk.js.map": "/el-buen-sabor/static/js/453.5bd547e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ce8a7d.css",
+    "static/js/main.60f0f8f3.js"
+  ]
+}

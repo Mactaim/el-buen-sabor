@@ -1,0 +1,236 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center; /* Centrado por defecto */
+}
+
+/* Fondo y texto global */
+body {
+    line-height: 1.6;
+    color: #020302;
+    background-color: #cadce5;
+}
+
+/* Encabezado con imagen de fondo */
+header {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Navegación */
+nav {
+    background-color: #00898b;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #111010;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Títulos */
+h2 {
+    font-size: 2.5rem;
+    color: #8B0000;
+    margin-bottom: 30px;
+}
+
+/* Estilo para el texto de la sección de inicio */
+#inicio p {
+    font-size: 1.2rem;
+}
+
+/* Estilo de los platos del menú */
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 1.8rem;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilo del formulario de reservas */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left; /* Para que los campos se alineen correctamente */
+}
+
+input, select, textarea, button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #8B0000;
+    color: rgb(216, 173, 173);
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a50000;
+}
+
+.success-message {
+    display: none;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los artículos del blog */
+#blog article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: hsl(203, 69%, 51%);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#blog h3 {
+    margin-bottom: 10px;
+    color: #8B0000;
+}
+
+/* Estilo para los eventos */
+#eventos ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#eventos ul li::before {
+    content: "• ";
+    color: #8B0000;
+    font-weight: bold;
+}
+
+#eventos li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+    font-size: 0.95rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-item img {
+        max-width: 100%;
+    }
+
+    form {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    footer {
+        padding: 15px 10px;
+    }
+}
